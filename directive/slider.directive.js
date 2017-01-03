@@ -5,6 +5,11 @@ dir.directive("mySlider",function(){
 		scope:{
 			object:'=object'
 		},
+		link:function(scope){
+			scope.disable_slider = function(){
+				document.getElementById('ad').style.right='-100%';
+			}
+		},
 		templateUrl:'directive/slider.html'
 	}
 });
