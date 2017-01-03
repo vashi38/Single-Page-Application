@@ -1,0 +1,15 @@
+<div id="ad" class="slide">
+	<p class="close" ><span class="glyphicon glyphicon-remove" onclick="document.getElementById('ad').style.display='none'"></span></p>
+	<div class="stories">
+	</br>
+		<center>Are You Looking for <b>{{object.header}}</b></center>
+		<div class="story" ng-repeat = "story in object.stories">
+			<img ng-src="{{story.img1}}" height="60%" width="48%"/>
+			<img ng-src="{{story.img2}}" height="60%" width="48%"/>
+			<div class="desc">
+				<b >{{story.desc}}</b></br>
+				See More..
+			</div>
+		</div>
+	</div>
+</div>
