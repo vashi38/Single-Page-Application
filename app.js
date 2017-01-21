@@ -5,7 +5,7 @@ app.controller("sliderController",function($timeout,$scope){
 	$timeout(function(){
 		var ele = document.getElementById('ad');
 		ele.style.right="5";
-	},1);
+	},100);
 	
 	$scope.obj = {
 	'header':'White Dress',

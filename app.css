@@ -30,11 +30,6 @@
 		width:40%;
 	}
 }
-@media (max-width:500px){
-	.slide{
-		width:50%;
-	}
-}
 
 @media (max-height:550px){
 	.slide{
